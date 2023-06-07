@@ -1,0 +1,433 @@
+ /* ====================extra small responsive css start */
+@media (min-width:320px) and (max-width:575px) {
+    nav .navbar-toggler {
+        background: white;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    nav{
+        top:30px;
+        
+    }
+    nav .navbar-nav {
+        background-color: black !important;
+        text-align: center;
+        border:1px solid #6A4DF4;
+        margin-top:10px;
+    }
+    nav .navbar-nav li {
+        border-bottom:1px solid #6A4DF4;
+        
+
+    }
+    
+        nav .navbar-nav li:last-child {
+        border-bottom:none;
+    }
+    .contact-btn{
+        margin-top:20px;
+
+    } 
+   
+    #banner .heading h1 {
+        font-size: 50px;
+        width:auto;
+
+    }
+    #banner .info p {
+        width: auto;
+        
+    }
+    #banner .overlay {
+        padding-top:177px;
+        /* padding-bottom: 106px; */
+    }
+    
+
+    #article {
+        width:auto;
+        background-color: none;
+    left:0px;
+   background: none;
+    }
+    
+    #article .heading h2 {
+        margin-top: -111px;
+        margin-left: 20px;
+        width:auto;
+    }
+    #article .heading h3 {
+        
+        font-size: 25px;
+        width: auto;
+        margin-top: 10px;
+       
+    }
+    #article .info p {
+        
+        color: #151515;
+        font-size: 41px;
+        margin-top: 20px;
+        width: auto;
+        margin-left:45px;
+
+    }
+    #article .info h3 {
+       
+        color: #737373;
+        font-size: 14px;
+        width: 323px;
+        
+    } 
+    #article .contact p {
+        
+        font-size: 50px;
+        width: auto;
+       
+        margin-top: 20px;
+    }
+    #article .contact h4 {
+       
+        width: 300px;
+      
+    }
+    #article .project h5 {
+        
+        width: auto;
+        margin-left: 51px;
+       
+    }
+    #services .custom-card p {
+        width: auto;
+        
+        
+    }
+    #article .project p {
+        font-weight: 700;
+        color: #151515;
+        font-size: 45px;
+        width: auto;
+        margin-left: 55px;
+        margin-top: 20px;
+    }
+    .title p {
+        
+        width: auto;
+        
+    }
+    img, svg {
+        vertical-align: middle;
+        width: 75%;
+    }
+    #about .custom-card p {
+        
+        width: auto;
+        
+    }
+    
+    element {
+        margin-top: -241px !important;
+        padding-top: -17px;
+        padding-bottom: 14px;
+    }
+    #reviews .item p {
+         width: auto;
+       
+    }
+    #reviews .item .custom-flex {
+        
+        column-gap: 9px;
+    }
+    #reviews .item {
+      
+        padding: 63px 75px;
+       
+    }
+    
+    .title h2 {
+        font-size: 38px;
+        margin-top: -36px;
+    }
+    #agenc .title h2 {
+        width: auto;
+        margin: 0 auto;
+    }
+    #agenc .title p {
+        width: auto;
+        margin-bottom: 64px;
+    }
+    #agenc .item h3 {
+       
+        margin: 43px 0px 22px 0px;
+        /* text-align: center; */
+    }
+   
+    #agenc .item p {
+        width: auto;
+        margin: 15px 0px;
+    }
+    img, svg {
+                width: 100%;
+    }
+    img, svg {
+        width: 75%;
+    }
+    #design .text h3 { 
+        font-size: 28px;
+        width: auto;
+        margin-bottom: 20px;
+    }
+    #design .text p {
+        
+        width: auto;
+        
+    }
+    #design .form {
+        width: auto;
+        padding: 61px 0;
+        border-radius: 9px;
+    }
+    footer p {
+        font-size: 12px;
+        
+        width: auto;
+        margin: 30px 0px;
+       
+    }
+    footer .main .about h4 {
+        
+        margin: 14px auto;
+    }
+    footer .main {
+        display: flex; 
+        justify-content: space-between;
+        column-gap: 0px; 
+        flex-wrap: wrap;
+    }
+    /* =====================extra small responsive css end=============== */
+
+/* ==================== small responsive css start */
+@media (min-width:576px) and (max-width:767px) {
+    nav .navbar-toggler {
+        background: white;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    nav{
+        top:30px;
+    }
+    nav .navbar-nav {
+        background-color: black !important;
+        text-align: center;
+        border:1px solid #6A4DF4;
+        margin-top:10px;
+    }
+    nav .navbar-nav li{
+        border-bottom:1px solid #6A4DF4;
+
+    }
+    nav .navbar-nav li:last-child {
+        border-bottom:none;
+    }
+    nav .contact-btn{
+        margin-top:20px;
+
+    } 
+    
+    #banner .heading h1 {
+        font-size: 50px;
+        width:auto;
+
+    }
+    #banner .info p {
+        width: auto;
+        
+    }
+    #banner .overlay {
+        padding-top:177px;
+        padding-bottom: 106px;
+    }
+    #article {
+        width:auto;
+        background-color: none;
+    left:0px;
+   background: none;
+    }
+    #article .heading h1 {
+       
+        margin-top: -117px;
+        margin-bottom: 1px;
+        margin-left:42px;
+
+        
+    }
+    #article .heading h2 {
+
+        
+        width: auto;
+        padding: 10px 0px 86px 42px;
+    }
+    #article .info p {
+        
+        margin-left: 40px;
+        margin-top: -131px;
+    }
+    #article .contact p {
+       
+        margin-left: 40px;
+        margin-top: -72px;
+        /* padding: 20px; */
+    }
+    #article .project p {
+        
+        margin-left: 36px;
+        margin-top: -75px;
+    }
+    #article .info h3 {
+        
+        margin-left: 41px;
+        margin-top: 4px;
+    }
+    #article .contact h4 {
+
+        margin-left: 44px;
+        margin-top: 8px;
+    }
+    #article .project h4 {
+        margin-left: 42px;
+        margin-top: -1px;
+    }
+    .title p {
+        
+        width: auto;
+        
+    }
+}
+    /* ===================== small responsive css end=============== */
+
+/* ==================== medium responsive css start */
+@media (min-width:768px) and (max-width:991px) {
+    nav .navbar-toggler {
+        background: white;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    nav{
+        top:30px;
+    }
+    nav .navbar-nav {
+        background-color: black !important;
+        text-align: center;
+        border:1px solid #6A4DF4;
+        margin-top:10px;
+    }
+    nav .navbar-nav li{
+        border-bottom:1px solid #6A4DF4;
+
+    }
+    nav .navbar-nav li:last-child {
+        border-bottom:none;
+    }
+    nav .contact-btn{
+        margin-top:20px;
+
+    } 
+    
+    #banner .heading h1 {
+        font-size: 50px;
+        width:auto;
+
+    }
+    #banner .info p {
+        width: auto;
+        
+    }
+    #banner .overlay {
+        padding-top:177px;
+        padding-bottom: 106px;
+    }
+    #article {
+        width:auto;
+        background-color: none;
+    left:0px;
+   background: none;
+    }
+    #article .heading h1 {
+       
+        margin-top: -117px;
+        margin-bottom: 1px;
+        margin-left:42px;
+
+        
+    }
+    #article .heading h2 {
+
+        
+        width: auto;
+        padding: 10px 0px 86px 42px;
+    }
+    #article .info p {
+        margin-left: 143px;
+        margin-top: -131px;
+    }
+    #article .contact p {
+       
+        margin-left: 40px;
+        margin-top: 11px;
+    }
+    #article .project p {
+        
+        margin-left: 153px;
+        margin-top: 19px;
+    }
+    #article .info h3 {
+        
+        margin-left: 144px;
+        margin-top: 4px;
+    }
+    #article .contact h4 {
+
+        margin-left: 44px;
+        margin-top: 8px;
+    }
+    #article .project h4 {
+        margin-left: 158px;
+        margin-top: -1px;
+    }
+    #article .heading h1 {
+        margin-top: -335px;
+        
+    }
+    #article .info p {
+  
+        margin-top: -344px;
+    }
+    #article .contact p {
+      
+        margin-top: -158px;
+    }
+    #article .project p {
+
+        margin-top: -163px;
+    }
+}
+    /* ===================== medium responsive css end=============== */
+
+/* ==================== large responsive css start */
+@media (min-width:992px) and (max-width:1199px) {
+  nav .contact-column-gap{
+    column-gap: 45px;
+  }
+    
+   
+
+}
+@media (min-width:1200px) and (max-width:1399px) {
+
+}
+@media (min-width:1400px)  {
+}
+}

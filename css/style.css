@@ -1,0 +1,544 @@
+/* =======================common css start======================= */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+q:before,
+q:after {
+  content: "";
+}
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ol,
+ul,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: 'Inter', sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ img {
+  max-width: 100%;
+  /* display: block;  */
+ }
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+.contact-btn a{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px 42px;
+    background:  #6A4DF4;
+  
+    border-radius: 10px;
+    color:#fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.title{
+  text-align: center;
+}
+.title h2{
+  font-weight:700;
+  font-size: 45px;
+
+}
+
+
+.title p{
+  font-weight:400;
+  font-size: 16px;
+  width:609px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+  
+/* ============================common css end================================= */
+/* ===================== navber css start=============================== */
+nav{
+
+    position: absolute !important;
+    width:100%;
+    top:65px;
+    left:0;
+    
+}
+nav .custom-column-gap{
+  column-gap: 68px;
+}
+nav ul li{
+    margin-right: 67px;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+nav ul li a{
+
+    font-size: 18px;
+    font-weight: 400;
+    color:#fff !important;
+    
+}
+nav ul li a:hover{
+  
+    font-weight: 700;
+    color:#6A4DF4 !important;
+}
+/* ===================== navber css end============================================ */
+/* =================================banner css start======================= */
+#banner{
+    background:url("../images/banner.webp") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+#banner .overlay{
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 315px 0px 176px 0px;
+} 
+#banner .flex-d{
+  flex-direction: column;
+}
+#banner .heading h1{
+    font-weight: 700;
+    font-size: 75px;
+    width: 950px;
+    margin: auto;
+
+}
+#banner .info p{
+    font-weight: 400;
+    font-size: 14px;
+    width: 621px;
+    margin: auto;
+    margin-top: 51px;
+    margin-bottom: 300px;
+
+}
+/* ========================================banner css end=========================== */
+/* ================================article css start========================================== */
+#article{
+    /* position: absolute; */
+width:90%;
+margin: 0 auto;
+height: 300px;
+margin-top: 171px;
+background:  #E0FFF9;
+border-radius: 20px;
+text-align: center;
+/* padding: 0px 50px; */
+
+
+}
+#article .heading h2{
+    font-weight: 500;
+    color:#6A4DF4;
+    font-size: 25px;
+    width: 158px;
+   margin-top: 50px;
+   margin-left: 20px;
+}
+#article .heading h3{
+    font-weight: 600;
+    color: #151515;
+    font-size: 25px;
+    width: 246px;
+   margin-top:10px;
+   margin-left: 1px;
+   
+}
+
+#article .info p{
+    font-weight: 700;
+    color: #151515;
+    font-size: 50px;
+    width: 135px;
+    margin-left:30px;
+    margin-top: 30px;
+    
+}
+
+#article .info h3{
+    font-weight: 500;
+    color:#737373;
+    font-size: 14px;
+    width: 184px;
+    margin-left:10px;
+    margin-top: 8px;
+    
+}
+#article .contact p{
+    font-weight: 700;
+    color: #151515;
+    font-size: 50px;
+    width: 81px;
+    margin-left:50px;
+    margin-top: 30px;
+
+}
+#article .contact h4{
+    font-weight: 700;
+    color:  #737373;
+    font-size: 14px;
+    width: 154px;
+    margin-left:20px;
+    margin-top: 8px;
+
+}
+#article .project p{
+    font-weight: 700;
+    color: #151515;
+    font-size: 50px;
+    width: 124px;
+    margin-left:40px;
+    margin-top: 30px;
+
+}
+#article .project h5{
+    font-weight: 700;
+    color:  #737373;
+    font-size: 14px;
+    width: 164px;
+    margin-left:25px;
+    margin-top: 8px;
+
+}
+/* ================================article css end============================== */
+/* ====================================services css start================= */
+#services {
+  margin: 150px 0px; 
+}
+#services .custom-card {
+  /*height:;
+  300px*/text-align: center;
+  
+  padding:40px 0px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#services .custom-card:hover{
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25)
+}
+#services .custom-card img{
+ display:inline;
+}
+#services .custom-margin {
+margin-top: 50px;
+  /* height:300px */
+ 
+  
+}
+#services .custom-card h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color:#151515;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+#services .custom-card p{
+  font-size: 16px;
+  font-weight: 400;
+  color:#737373;
+  width:326px;
+  margin:auto;
+  /* padding:0px 50px;
+  box-sizing: border-box; */
+  
+}
+/* ======================about css start==================== */
+#about {
+  margin: 150px 0px;
+}
+#about .custom-card {
+  /*height:;
+  300px*/text-align: center;
+  
+  padding:40px 0px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#about .custom-margin {
+  margin-top: 50px;
+    /* height:300px */
+   
+    
+  }
+  #about .custom-card h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color:#151515;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+  }
+  #about .custom-card p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#737373;
+    width:326px;
+    margin:auto;
+    /* padding:0px 50px;
+    box-sizing: border-box; */
+    
+  }
+  /* ================================review css start============= */
+  #reviews {
+   
+    margin-top:200px;
+  }
+  #reviews .custom-margin {
+   
+    margin-top:130px;
+  }
+  #reviews .item{
+    /*background-color: #6A4DF4;
+    */padding:54px 58px;
+    border-radius: 30px;
+    transition: .4s;
+
+  }
+   
+#reviews .item:hover{
+   background-color: #F4EFEF;
+
+  
+
+}
+  #reviews .item p{
+   font-size: 16px;
+   font-weight: 400;
+   color:#7B7B7B;
+   width:307px;
+   margin: 20px 0px;
+
+
+  }
+  #reviews .item .custom-flex{
+    display: flex;
+    column-gap:20px;
+    align-items: center;
+    margin-top:30px;
+
+  }
+
+   #reviews .item .custom-flex .user-details h3{
+    font-size: 20px;
+    font-weight: 600;
+    color:#232323;
+  }
+  #reviews .item .custom-flex .user-details h4{
+    font-size: 16px;
+    font-weight: 400;
+    color:#7B7B7B;
+  }
+  /* =========================review css end================= */
+  /* ==========================agency css start============ */
+  #agenc{
+    margin-top:200px;
+  }
+  #agenc .title h2{
+    width:512px;
+    margin:0 auto;
+   
+  }
+  #agenc .title p{
+    width:802px;
+  margin-bottom: 100px;
+  }
+
+#agenc .custom-row-gap{
+    row-gap:88px;
+    
+  }
+  
+  #agenc .item h3{
+    font-weight: 700;
+    font-size: 25px;
+    margin:20px 0px 10px 0px;
+  }
+  
+  #agenc .item p{
+    font-weight: 400;
+    font-size: 16px;
+    color:#737373;
+    width:344px;
+  }
+  /* =====================================design css start===================== */
+  
+#design{
+  background: #F3F3F3;
+  padding: 70px 0px;
+
+}
+
+#design .text{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#design .text h3{
+  
+font-weight: 700;
+font-size: 45px;
+color: #151515;
+width: 470px;
+margin-bottom: 20px;
+
+}
+
+#design .text p{
+  
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B7B7B;
+  width: 526px;
+  margin-bottom: 9px;
+}
+
+#design .form{
+  width: 536px;
+  padding: 61px 0;
+  border-radius: 20px;
+} 
+#design .form:hover{
+ background-color:white;
+ border:2px solid ;
+} 
+#design .form h2{
+font-weight: 700;
+font-size: 30px;
+
+color: #151515;
+text-align: center;
+
+} 
+
+#design .form form{
+  display: flex;
+  flex-direction: column;
+  padding: 0 43px;
+}
+
+#design .form form label {
+font-weight: 500;
+font-size: 16px;
+color: #151515;
+margin-bottom: 30px;
+
+}
+
+#design .form form input{
+  padding: 19px 23px;
+  border: 1px solid #E8E8E8;
+  border-radius: 10px;
+font-weight: 400;
+font-size: 16px;
+color: #D0D0D0;
+margin-bottom: 20px;
+}
+
+#design .form form button{
+  
+font-weight: 600;
+font-size: 20px;
+text-align: center;
+
+color: #FFF;
+border: 0px;
+background: #6A4DF4;
+border-radius: 10px;
+padding: 19px 0px;
+}
+
+  /*=====================design css end===================  */
+
+  /* ========================footer css start============ */
+  
+footer .main{
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 131px;
+}
+footer .margin-col{
+  margin: 50px 0px;
+}
+footer p{
+  font-size: 16px;
+  font-weight: 400;
+  width:356px;
+  margin-top:30px;
+  color:#7B7B7B;
+}
+footer .main .about h4{
+  font-size: 20px;
+  font-weight: 600;
+  color:#151515;
+  margin-bottom:20px;
+}
+footer .main .about ul li a{
+  font-size: 16px;
+  font-weight: 400;
+  color:#737373;
+  
+}
+
+footer .main .about ul li{
+ margin-top: 10px;
+  
+}
+ .copy_right p{
+  font-size: 16px;
+  font-weight: 400;
+  color:black;
+  text-align: center;
+  padding: 20px 0px;
+}
